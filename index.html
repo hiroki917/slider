@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>スライダー実装</title>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" href="css/slick.css">
+  <link rel="stylesheet" href="css/slick-theme.css">
+</head>
+<body>
+  <ul class= "slider">
+    <li><img src="img/test_image.png" alt=""></li>
+    
+    <li><img src="img/test_image2.png" alt=""></li>
+    
+    <li><img src="img/test_image3.png" alt=""></li>
+    
+    <li><img src="img/test_image4.png" alt=""></li>
+    
+  </ul>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="js/slick.js"></script>
+  <script>
+
+$(document).ready(function(){
+  $('.slider').slick({
+  dots: true
+  
+  });
+});
+  </script>
+</body>
+</html>
